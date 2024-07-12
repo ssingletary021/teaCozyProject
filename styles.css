@@ -32,6 +32,23 @@ img {
 
 /* 1. Typography Styles
 ======================================== */
+body {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
 
 /* 1. Structure Styles
 ======================================== */

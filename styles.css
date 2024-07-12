@@ -9,6 +9,27 @@
 /* 1. Global Styles
 ======================================== */
 
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: hsla(0, 0%, 0%, 0.9);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* 1. Typography Styles
 ======================================== */
 

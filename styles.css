@@ -83,8 +83,22 @@ a {
   margin: 0 auto;
 }
 
+.location-section {
+  background: url("./images/locations-background.jpg") center/cover no-repeat;
+  height: 500px;
+}
 /* 1. Module Styles
 ======================================== */
+.picture {
+  height: 200px;
+  width: 300px;
+}
+
+.location-panel {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
 
 /* 1. Component Styles
 ======================================== */

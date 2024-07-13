@@ -69,12 +69,17 @@ a {
 }
 
 .header {
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 69px;
   border-bottom: 1px solid seashell;
-  margin: 0 10px;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .hero-section {
   background: url("./images/mission-background.jpg") center/cover no-repeat;
@@ -83,7 +88,9 @@ a {
   align-items: center;
   justify-content: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 69px;
 }
 
 .location-section {

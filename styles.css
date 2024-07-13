@@ -93,7 +93,12 @@ a {
   max-width: 1200px;
   margin: 69px auto;
 }
-
+.tea-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 .location-section {
   background: url("./images/locations-background.jpg") center/cover no-repeat;
   height: 500px;
@@ -117,6 +122,14 @@ a {
 .picture {
   height: 200px;
   width: 300px;
+}
+
+.tea-panel {
+  margin-bottom: 0;
+}
+
+.tea-text {
+  margin-top: 10px;
 }
 
 .location-panel {

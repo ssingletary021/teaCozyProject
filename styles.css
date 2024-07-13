@@ -60,6 +60,28 @@ a {
 }
 /* 1. Structure Styles
 ======================================== */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+.hero-section {
+  background: url("./images/mission-background.jpg") center/cover no-repeat;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 /* 1. Module Styles
 ======================================== */

@@ -49,15 +49,18 @@ h2 {
   text-align: center;
   font-size: 38px;
 }
+h3 {
+  font-size: 28px;
+}
 h3,
 h4,
 h5 {
   text-align: center;
-  font-size: 22px;
 }
 
 p {
   text-align: center;
+  font-size: 22px;
 }
 a {
   color: inherit;
@@ -102,6 +105,10 @@ a {
 .location-section {
   background: url("./images/locations-background.jpg") center/cover no-repeat;
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /* 1. Module Styles
 ======================================== */
@@ -131,11 +138,26 @@ a {
 .tea-text {
   margin-top: 10px;
 }
+.location-section h2 {
+  margin-bottom: 15px;
+}
 
+.location-panel p {
+  font-weight: normal;
+}
+.location-panel-section {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 0;
+}
 .location-panel {
   background-color: black;
   width: 300px;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 /* 1. Component Styles

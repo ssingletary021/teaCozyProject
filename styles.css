@@ -61,7 +61,7 @@ h3 {
   font-size: 28px;
 }
 h4 {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 h5 {
@@ -109,6 +109,7 @@ a {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  margin: 40px auto;
 }
 .location-section {
   background: url("./images/locations-background.jpg") center/cover no-repeat;
@@ -117,6 +118,11 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  margin-top: 0;
+  border: 1px solid red;
 }
 /* 1. Module Styles
 ======================================== */
@@ -168,5 +174,14 @@ a {
   align-content: space-between;
 }
 
+.contact-section {
+  border: 1px solid red;
+  height: 200px;
+}
+
+footer p {
+  text-align: left;
+  padding: 0 20px;
+}
 /* 1. Component Styles
 ======================================== */
